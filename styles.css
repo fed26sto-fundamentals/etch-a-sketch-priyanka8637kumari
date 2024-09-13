@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px; /* Adjust based on the desired grid size */
+    height: 640px; /* Ensure it forms a perfect square */
+  }
+  
+  .square {
+    /* width: 40px; /* Square size based on container width / number of squares (640px / 16 = 40px) */
+    /* height: 40px;  */
+    border: 1px solid red;
+    box-sizing: border-box;
+    /* flex: 1 0 6.25%;  
+    flex-basis: 6.25%; */
+    /* flex-grow: 1; */
+  }
+
+  button{
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    color: red;
+  }
+  
